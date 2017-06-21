@@ -30,7 +30,7 @@ class SimpleCrypt
      */
     public function __construct($key)
     {
-        if (mb_strlen($this->key, '8bit') !== 32) {
+        if (mb_strlen($key, '8bit') !== 32) {
             throw new \Exception('Needs a 256-bit key!');
         }
         $this->key = $key;
