@@ -1,0 +1,17 @@
+{
+    "name": "dorantor/simple-crypt",
+    "description": "Very simple lib for symmetric en/decrypt messages so they could be sent through untrusted channels. ",
+    "keywords": ["openssl", "symmetric", "cipher"],
+    "homepage": "https://github.com/dorantor/simple-crypt/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^5.6|^7.0",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Dorantor\\" : "src"
+        }
+    }
+}
